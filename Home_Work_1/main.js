@@ -33,7 +33,7 @@ console.log(typeof a, typeof b, typeof c)
 const name = prompt('Ваше Імям?');
 const surname = prompt('По-Батькові?')
 const age = +prompt('Скільки вам Років?')
-alert('Привіт')
+alert(`Привіт ${name}`)
 console.log(name,surname,age)
 //========================================================================================================
 
