@@ -163,6 +163,7 @@ const coursesAndDurationArray = [
     {title: 'FullStack', monthDuration: 7},
     {title: 'Frontend', monthDuration: 4}
 ];
+// пробував через else if але так виводиться тільки 1 обєкт
 if (coursesAndDurationArray[0].monthDuration > 5) {
     console.log('Супер');
 }
